@@ -26,7 +26,7 @@ import jakarta.servlet.http.HttpServletRequest;
  * Description: 把切面类加入到IOC容器中
  */
 @Component
-public class AopLog {
+public class AopLogss {
     private Logger logger = LoggerFactory.getLogger(this.getClass());
     //线程局部的变量,解决多线程中相同变量的访问冲突问题。
     ThreadLocal<Long> startTime = new ThreadLocal<>();

@@ -8,7 +8,7 @@ import org.springframework.context.ApplicationContext;
 import cn.edu.zucc.entity.User;
 
 @SpringBootTest
-class L05IocApplicationTests {
+class L051Tests {
     @Autowired
     private ApplicationContext applicationContext;
     @Test

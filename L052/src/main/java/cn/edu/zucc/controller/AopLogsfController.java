@@ -4,8 +4,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
  
 @RestController
-public class AopLogController {
-    @GetMapping("/aoptest")
+public class AopLogsfController {
+    @GetMapping("/test2")
     public String aVoid(){
         return "hello aop test";
     }

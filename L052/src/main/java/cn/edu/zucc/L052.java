@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class L05IocApplication {
+public class L052 {
 
 	public static void main(String[] args) {
-		SpringApplication.run(L05IocApplication.class, args);
+		SpringApplication.run(L052.class, args);
 	}
 
 }

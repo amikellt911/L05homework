@@ -1,13 +1,13 @@
-package cn.edu.zucc;
+package com.example.studentiocaop;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class L05ErrorApplication {
+public class StudentIocAopApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(L05ErrorApplication.class, args);
+		SpringApplication.run(StudentIocAopApplication.class, args);
 	}
 
 }
